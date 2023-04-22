@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="{{ asset('assets/css/index.css') }}">
 </head>
 <body>
+    <h1>Car rent</h1>
+    <div> Test commit</div>
     <nav>
         <img src="{{ asset('assets/imgs/logo.jpg') }}" class="logo-img"/>
     </nav>
