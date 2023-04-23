@@ -7,34 +7,46 @@
     <title>Car Rent</title>
 
     <link rel="stylesheet" href="{{ asset('assets/css/index.css') }}">
+    <link rel="stylesheet" href="assets\css\navbar.css">
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#">Disabled</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-    <h1>Car rent</h1>
-    <div> Test commitgtr</div>
-    <nav>
-        <img src="{{ asset('assets/imgs/logo.jpg') }}" class="logo-img"/>
-    </nav>
+<nav>
+  <ul>
+    <li> <img class="img-logo" src="assets\imgs\loginlogo.png" alt=""></li>
+    <li><a href="#">Trang chủ</a></li>
+    <li><a href="#">Top xe được thuê</a></li>
+    <li><a href="#">Tin tức</a></li>
+    <li><a class="login" href="#">Đăng nhập</a></li>
+    <li><a class="signup" href="#">Đăng ký</a></li>
+    <li>
+      <form action="#" method="get">
+        <input type="text" placeholder="Tìm kiếm" name="search">
+        <button type="submit">Tìm kiếm</button>
+      </form>
+    </li>
+  </ul>
+</nav>
+<main>
+  <h1>Tìm kiếm thuê xe</h1>
+  <div class="search-form">
+    <form>
+      <label for="city-search">Tìm theo thành phố:</label>
+      <input type="text" id="city-search" name="city-search" placeholder="Nhập tên thành phố">
+
+      <label for="location-search">Tìm theo địa điểm:</label>
+      <input type="text" id="location-search" name="location-search" placeholder="Nhập địa điểm">
+
+      <label for="rental-date">Thời gian thuê:</label>
+      <input type="datetime-local" id="rental-date" name="rental-date">
+
+      <label for="return-date">Thời gian trả xe:</label>
+      <input type="datetime-local" id="return-date" name="return-date">
+
+      <button type="submit">Tìm kiếm theo tiêu chí thuê</button>
+    </form>
+  </div>
+</main>
+
+
 </body>
 </html>
