@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>F8 - Shop</title>
+        <title>aboutus</title>
         <meta charset="utf-8">
         <link rel="stylesheet" href="{{asset('assets/css/aboutus.css')}}">
     </head>
@@ -10,23 +10,25 @@
         <div class="nav">
             <ul class="nav-list">
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="./index.php">HOME</a>
+                    <a class="nav-link" aria-current="page" href="/">HOME</a>
                   </li>
-                <li class="nav-item">Kết nối</li>
-                <li class="nav-item">Tải ứng dụng</li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="/about">ABOUT</a>
+                </li>
             </ul>
             <ul class="nav-list">
                 <li class="nav-item">Đăng ký</li>
                 <li class="nav-item">Đăng nhập</li>
             </ul>
         </div>
+    
          <!-- Column layout -->
          <div class="column-layout">
             <div class="column-item sidebar-one">
                 <img src="{{ asset('assets/imgs/Rentcart.jpg') }}" class="">
             </div>
             <div class="column-item main-column">
-                <h2>Rental Car la gi</h2>
+                <h2>Rental Car là gì</h2>
                 <p>
                     Web cho thuê xe tự lái, cung cấp giải pháp kết nối khách hàng có nhu cầu thuê xe với hàng nghìn đơn vị và chủ xe gia đình toàn quốc một cách nhanh chóng, minh bạch và an toàn với chi phí tiết kiệm nhất.</p>
             </div>
