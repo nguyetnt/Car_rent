@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Car Rent</title>
+    <title>Index</title>
     <link rel="stylesheet" href="{{ asset('assets/css/index.css') }}">
     <link rel="stylesheet" href="assets\css\navbar.css">
 </head>
@@ -14,7 +14,9 @@
     <li> <img class="img-logo" src="assets\imgs\loginlogo.png" alt=""></li>
     <li><a href="#">Trang chủ</a></li>
     <li><a href="#">Top xe được thuê</a></li>
+    <li><a href="#">Các loại xe</a></li>
     <li><a href="#">Tin tức</a></li>
+    <li><a href="#">Liên hệ</a></li>
     <li><a class="login" href="#">Đăng nhập</a></li>
     <li><a class="signup" href="#">Đăng ký</a></li>
     <li>

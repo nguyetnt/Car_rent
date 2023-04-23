@@ -1,3 +1,10 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+   
 nav {
     background-color: #333;
     overflow: hidden;
@@ -5,13 +12,16 @@ nav {
   
   nav ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     float: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
   }
   
   nav ul li {
     float: left;
+    margin-top: 10px;
   }
   
   nav ul li a {
@@ -55,24 +65,26 @@ nav {
   nav input[type="text"] {
     font-size: 16px;
     padding: 5px;
-    padding-right: 30px;
+    padding-right: 120px;
+    padding-left: 10px;
     border: none;
     border-radius: 4px;
     background-color: #f2f2f2;
     font-size: 14px;
+    margin-top: 20px;
+    margin-right: 100px;
   }
   
   nav button[type="submit"] {
-    font-size: 16px;
     background-color: #4CAF50;
     color: white;
-    border: none;
     border-radius: 5px;
-    padding: 6px 8px;
+    padding: 6px 80px;
     margin-top: 5px;
     margin-bottom: 5px;
     cursor: pointer;
     font-size: 14px;
+    margin-right: 50px;
   }
   
   nav button[type="submit"]:hover {
@@ -88,17 +100,16 @@ nav {
   .login {
     display: block;
     background-color: rgb(0, 132, 255);
-    margin-left: 500px;
     border-radius: 30px;
     margin-top: 10px;
+    margin-left: 150px;
   }
 
   .signup {
     display: block;
     background-color: burlywood;
-    margin-left: 30px;
-    margin-right: 50px;
     border-radius: 30px;
     margin-top: 10px;
+    margin-right: 150px;
   }
   
