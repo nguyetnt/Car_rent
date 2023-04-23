@@ -52,3 +52,7 @@ Route::get('/carsAdmin/create', function () {
 Route::get('/carsAdmin/edit/{id}', function () {
     return view('carsAdminDetail');
 });
+
+Route::get('/category', function () {
+    return view('category');
+});

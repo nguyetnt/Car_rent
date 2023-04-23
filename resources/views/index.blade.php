@@ -45,7 +45,7 @@
     </form>
   </div>
   <div class="image-container">
-    <img src="background.jpg" alt="car rental image">
+    <img src="assets\imgs\Index-background.jpg" alt="car rental image">
   </div>
 </main>
 

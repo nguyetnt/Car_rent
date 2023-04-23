@@ -1,0 +1,39 @@
+main {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .filter {
+    width: 25%;
+    padding: 20px;
+  }
+  
+  .car-list {
+    width: 75%;
+    padding: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  li {
+    flex-basis: calc(33.33% - 20px);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .car-info {
+    background-color: #f8f8f8;
+    padding: 10px;
+    text-align: center;
+  }
+  
