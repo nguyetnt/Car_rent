@@ -47,13 +47,13 @@
         <a href="/car.php">
             <img src="https://res.cloudinary.com/cockbook/image/upload/v1682245577/single/image_1_1_tdxidy.png" alt="">
         </a>
-        <span style="font-size: 24px; margin-left: 30px">CAMARA - 12$/H</span>
+        <span style="font-size: 24px; margin-left: 30px">NAME CAR_Price/H</span>
     </div>
     <div class="row-3">
         
     </div>
     <div class="row-2-5">
-        <span style="font-size: 24px; margin-left: 30px">AUDI - 10$/H</span>
+        <span style="font-size: 24px; margin-left: 30px">NAME CAR_Price/H</span>
         <a href="/car.php">
             <img style="margin-left: 30px" src="https://res.cloudinary.com/cockbook/image/upload/v1682246617/single/image_2_3_peleqs.png" alt="">
         </a>
@@ -65,6 +65,6 @@
         <a href="/car.php">
             <img src="https://res.cloudinary.com/cockbook/image/upload/v1682246653/single/image_3_1_tvclgp.png" alt="">
         </a>
-        <span style="font-size: 24px; margin-left: 30px">CAMARA - 12$/H</span>
+        <span style="font-size: 24px; margin-left: 30px">NAME CAR_Price/H</span>
     </div>
 </div>  
