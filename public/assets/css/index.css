@@ -1,6 +1,6 @@
 .logo-img {
- position: absolute;
- width: 151px;
+ position: fixed;
+ width: 100px;
  height: 59px;
  left: 146px;
  top: 14px;

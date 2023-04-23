@@ -20,11 +20,22 @@
                 <li class="nav-item">Đăng nhập</li>
             </ul>
         </div>
+         <!-- Column layout -->
+         <div class="column-layout">
+            <div class="column-item sidebar-one">
+                <img src="{{ asset('assets/imgs/Rentcart.jpg') }}" class="">
+            </div>
+            <div class="column-item main-column">
+                <h2>Rental Car la gi</h2>
+                <p>
+                    Web cho thuê xe tự lái, cung cấp giải pháp kết nối khách hàng có nhu cầu thuê xe với hàng nghìn đơn vị và chủ xe gia đình toàn quốc một cách nhanh chóng, minh bạch và an toàn với chi phí tiết kiệm nhất.</p>
+            </div>
+        </div>
+       
         <!-- Column layout -->
         <div class="column-layout">
             <div class="column-item sidebar-one">
                 <h2>Tiết kiệm phí thuê</h2>
-                <img src="{{ asset('assets/imgs/Rentcart.jpg') }}" class="logo-img">
                 <p>Giá thuê xe luôn công khai, tiết kiệm hơn 30% so với việc thuê xe truyền thống. Ngoài ra, khách thuê xe còn nhận được rất nhiều chương trình khuyến mãi.</p>
             </div>
             <div class="column-item main-column">
