@@ -30,17 +30,17 @@
 		<h1>Wishlist</h1>
 		<ul class="wishlist-items">
 			<li>
-				<img src="car1.jpg" alt="Car 1">
+				<img src="https://via.placeholder.com/300x200.png?text=Xe+1" alt="Car 1">
 				<h2>Car 1</h2>
 				<p>$100/day</p>
 			</li>
 			<li>
-				<img src="car2.jpg" alt="Car 2">
+				<img src="https://via.placeholder.com/300x200.png?text=Xe+2" alt="Car 2">
 				<h2>Car 2</h2>
 				<p>$150/day</p>
 			</li>
 			<li>
-				<img src="car3.jpg" alt="Car 3">
+				<img src="https://via.placeholder.com/300x200.png?text=Xe+3" alt="Car 3">
 				<h2>Car 3</h2>
 				<p>$200/day</p>
 			</li>

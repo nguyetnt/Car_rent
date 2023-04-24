@@ -158,7 +158,7 @@
 		<div class="car-card">
 			<img src="https://via.placeholder.com/300x200.png?text=Xe+15" alt="Xe 15">
 			<div class="car-info">
-				<h3>Xe 15</h3>
+				<h4>Xe 15</h4>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 				<p class="price">Giá thuê: $350/ngày</p>
 			</div>

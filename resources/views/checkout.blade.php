@@ -44,13 +44,13 @@
 		</div>
 		<div class="car-section">
 			<div class="car-item">
-				<img src="car-image.jpg" alt="Car Image">
+				<img src="https://via.placeholder.com/300x200.png?text=Xe+1" alt="Car Image">
 				<h3>Tên xe</h3>
 				<p>Giá tiền: 1000$</p>
 				<p>Thông tin của xe</p>
 			</div>
 			<div class="car-item">
-				<img src="car-image.jpg" alt="Car Image">
+				<img src="https://via.placeholder.com/300x200.png?text=Xe+2" alt="Car Image">
 				<h3>Tên xe</h3>
 				<p>Giá tiền: 1000$</p>
 				<p>Thông tin của xe</p>
