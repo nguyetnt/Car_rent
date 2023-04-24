@@ -17,34 +17,43 @@
     <li><a href="#">Các loại xe</a></li>
     <li><a href="#">Tin tức</a></li>
     <li><a href="#">Liên hệ</a></li>
+    <li class="right-align"><a href="#" class="admin-btn">Quản lý</a></li>
     <li class="right-align"><a href="#" class="login-btn">Đăng nhập</a></li>
     <li class="right-align"><a href="#" class="register-btn">Đăng ký</a></li>
   </ul>
 </nav>
 
-<main>
-  <div class="search-container">
-    <h1>Tìm kiếm thuê xe</h1>
-    <form>
-      <label for="country">Tìm theo quốc gia:</label>
-      <input type="text" id="country" name="country">
-      <label for="city">Tìm theo thành phố:</label>
-      <input type="text" id="city" name="city">
-      <label for="start-date">Thời gian thuê:</label>
-      <input type="datetime-local" id="start-date" name="start-date">
-      <label for="end-date">Thời gian trả xe:</label>
-      <input type="datetime-local" id="end-date" name="end-date">
-      <div class="checkbox-container">
-        <input type="checkbox" id="agree" name="agree">
-        <label for="agree">Tôi đồng ý với <a href="#">điều khoản thuê xe</a></label>
-      </div>
-      <button type="submit">Tìm kiếm theo tiêu chí thuê</button>
-    </form>
+<div class="container">
+  <h2>Rentalcars.com</h2>
+  <h1>Cho thuê ô tô – Tìm kiếm, So sánh & Lưu</h1>
+  <br/>
+  <div class="descreption">
+    <p>✓ Hủy miễn phí trên hầu hết các yêu cầu</p>
+    <p>✓ Hơn 60.000 địa điểm</p>
+    <p>✓ Hỗ trợ khách hàng bằng hơn 40 ngôn ngữ</p>
   </div>
-  <div class="image-container">
-    <img src="assets\imgs\Index-background.jpg" alt="car rental image">
-  </div>
-</main>
+  <form>
+    <label for="location">Chọn địa điểm thuê xe:</label>
+    <input type="text" id="location" name="location" placeholder="Chọn địa điểm thuê xe" />
+    <br />
+    <label for="pickup">Ngày thuê xe:</label>
+    <input type="datetime-local" id="pickup" name="pickup" />
+    <br />
+    <label for="dropoff">Ngày trả xe:</label>
+    <input type="datetime-local" id="dropoff" name="dropoff" />
+    <br />
+    <br>
+    <button type="submit">Tìm kiếm</button>
+    <br />
+    <br>
+    <label for="different-location">Trả xe tại địa điểm khác:</label>
+    <input type="checkbox" id="different-location" name="different-location" />
+    <br />
+    <br>
+    <label for="driver-age">Tài xế tuổi từ 30 - 65?</label>
+    <input type="checkbox" id="driver-age" name="driver-age" />
+  </form>
+</div>
 
 </body>
 </html>

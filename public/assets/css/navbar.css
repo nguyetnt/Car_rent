@@ -39,7 +39,8 @@ li a:hover {
   background-color: #4CAF50;
   border-radius: 20px;
   padding: 8px 5px;
-  margin-top: 6px;
+  margin-top: 7px;
+  margin-left: 10px;
 }
 
 .register-btn {
@@ -47,6 +48,15 @@ li a:hover {
   border-radius: 20px;
   padding: 8px 16px;
   margin-left: 16px;
-  margin-top: 6px;
+  margin-top: 7px;
   margin-right: 5px;
+}
+
+.admin-btn {
+  background-color: #dd820b;
+  border-radius: 20px;
+  border-radius: 20px;
+  padding: 8px 5px;
+  margin-top: 7px;
+  margin-right: 10px;
 }
