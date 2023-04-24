@@ -13,9 +13,9 @@
     <nav>
         <ul class="nav-ul">
         <li class="nav-link"><a class="nav-a" href="/">Trang chủ</a></li>
-        <li class="nav-link"><a class="nav-a" href="#">Top xe được thuê</a></li>
-        <li class="nav-link"><a class="nav-a" href="#">Các loại xe</a></li>
-        <li class="nav-link"><a class="nav-a" href="#">Tin tức</a></li>
+        <li class="nav-link"><a class="nav-a" href="/toprent">Top xe được thuê</a></li>
+        <li class="nav-link"><a class="nav-a" href="/category">Các loại xe</a></li>
+        <li class="nav-link"><a class="nav-a" href="/news">Tin tức</a></li>
         <li class="nav-link"><a class="nav-a" href="/contactus">Liên hệ</a></li>
         <li class="nav-link"><a class="nav-a" href="/about">About</a></li>
         <li class="right-align"><a class="admin-btn" href="/carsAdmin">Quản lý</a></li>
@@ -29,9 +29,9 @@
     <button style="
         margin-left: 10px;
         margin-top: 10px;
-        width: 200px;
+        width: 1800px;
         height: 50px;
-        background-color: #4CAF50;
+        background-color: #ffffff;
         border: none;
         color: white;
         padding: 15px 32px;
