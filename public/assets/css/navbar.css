@@ -1,116 +1,52 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-  }
-   
 nav {
-    background-color: #333;
-    overflow: hidden;
-    margin-bottom: 20px;
-  }
-  
-  nav ul {
-    list-style-type: none;
-    float: left;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 100%;
-  }
-  
-  nav ul li {
-    float: left;
-    margin-top: 10px;
-  }
-  
-  nav ul li a {
-    font-size: 16px;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    margin: 8px 5px;
-  }
-  
-  nav ul li a:hover {
-    background-color: #111;
-  }
-  
-  nav form {
-    float: left;
-    margin-left: auto;
-  }
-  
-  nav .user-links {
-    font-size: 16px;
-    float: right;
-    margin-left: auto;
-  }
-  
-  nav .user-links a {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    margin-left: 20px;
-  }
-  
-  nav .user-links a:hover {
-    background-color: #111;
-  }
-  
-  nav input[type="text"] {
-    font-size: 16px;
-    padding: 5px;
-    padding-right: 120px;
-    padding-left: 10px;
-    border: none;
-    border-radius: 4px;
-    background-color: #f2f2f2;
-    font-size: 14px;
-    margin-top: 20px;
-    margin-right: 100px;
-  }
-  
-  nav button[type="submit"] {
-    background-color: #4CAF50;
-    color: white;
-    border-radius: 5px;
-    padding: 6px 80px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    cursor: pointer;
-    font-size: 14px;
-    margin-right: 50px;
-  }
-  
-  nav button[type="submit"]:hover {
-    background-color: #45a049;
-  }
+  background-color: #333;
+  height: 50px;
+}
 
-  .img-logo {
-    width: 110px;
-    height: 60px;
-    margin: 5px 50px 5px 15px;
-  }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
 
-  .login {
-    display: block;
-    background-color: rgb(0, 132, 255);
-    border-radius: 30px;
-    margin-top: 10px;
-    margin-left: 150px;
-  }
+li {
+  flex: 1;
+  text-align: center;
+}
 
-  .signup {
-    display: block;
-    background-color: burlywood;
-    border-radius: 30px;
-    margin-top: 10px;
-    margin-right: 150px;
-  }
-  
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+li a:hover {
+  background-color: #555;
+}
+
+.right-align {
+  text-align: right;
+  flex: 0.5;
+}
+
+.login-btn {
+  background-color: #4CAF50;
+  border-radius: 20px;
+  padding: 8px 5px;
+  margin-top: 6px;
+}
+
+.register-btn {
+  background-color: #f44336;
+  border-radius: 20px;
+  padding: 8px 16px;
+  margin-left: 16px;
+  margin-top: 6px;
+  margin-right: 5px;
+}
