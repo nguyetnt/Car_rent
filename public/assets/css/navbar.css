@@ -8,6 +8,7 @@
 nav {
     background-color: #333;
     overflow: hidden;
+    margin-bottom: 20px;
   }
   
   nav ul {
@@ -39,8 +40,8 @@ nav {
   }
   
   nav form {
-    background-color: #45a049;
-    margin-left: 200px;
+    float: left;
+    margin-left: auto;
   }
   
   nav .user-links {

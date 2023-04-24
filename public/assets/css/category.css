@@ -1,7 +1,19 @@
 /* CSS cho phần filter */
+
+  /* main {
+  background-color: rgb(247, 215, 222);
+  display: flex;
+  justify-content: flex-start;
+
+  height: 100vh;
+  padding: 0 2rem;
+} */
+
+
 .filter {
     width: 25%;
     float: left;
+  
   }
   
   .filter h2 {

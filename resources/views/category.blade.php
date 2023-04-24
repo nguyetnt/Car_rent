@@ -27,7 +27,8 @@
     </li>
   </ul>
 </nav>
-<main>
+
+<main >
         <section class="filter">
             <h2>Các loại xe:</h2>
             <ul>

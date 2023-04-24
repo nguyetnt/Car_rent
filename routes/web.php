@@ -58,6 +58,6 @@ Route::get('/category', function () {
 });
 
 Route::get('/contactus', function () {
-    return view('contachus');
+    return view('contactus');
 });
 
