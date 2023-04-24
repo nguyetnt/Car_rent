@@ -1,82 +1,19 @@
-<?php
-include ".../component/header.php";    
-?>
-<style>
-    .new-container {
-        width: 100%;
-    }
+<link rel="stylesheet" href="{{ asset('assets/css/navbar.css')}}">
+<nav>
+    <ul class="nav-ul">
+    <li class="nav-link"><a class="nav-a" href="/">Trang chủ</a></li>
+    <li class="nav-link"><a class="nav-a" href="/toprent">Top xe được thuê</a></li>
+    <li class="nav-link"><a class="nav-a" href="/category">Các loại xe</a></li>
+    <li class="nav-link"><a class="nav-a" href="/news">Tin tức</a></li>
+    <li class="nav-link"><a class="nav-a" href="/contactus">Liên hệ</a></li>
+    <li class="nav-link"><a class="nav-a" href="/about">Thông tin</a></li>
+    <li class="nav-link"><a class="nav-a" href="/search">Tìm kiếm</a></li>
+    <li class="right-align"><a class="admin-btn" href="/carsAdmin">Quản lý</a></li>
+    <li class="right-align"><a class="login-btn" href="/login">Đăng nhập</a></li>
+    <li class="right-align"><a class="register-btn" href="/signup">Đăng ký</a></li>
+    </ul>
+</nav>
 
-    .news-title {
-        width: 100%;
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        margin-top: 12px;
-        margin-bottom: 12px;
-    }
-
-    .main-new-container {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .inner-main-new-container {
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        max-width: 1200px;
-        gap: 20px
-    }
-
-    .inner-main-new-c-right {
-        width: 450px;
-
-    }
-
-    .inner-main-new-c-left {
-        flex: 1 1 0;
-    }
-
-    .highlight-new {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .hightlight-new-1 {
-        width: 70%;
-    }
-
-    .hightlight-new-1 img {
-        width: 100%;
-        height: 200px;
-    }
-
-    .hightlight-new-2 {
-        width: 30%;
-        height: 200px
-    }
-
-    .hightlight-new-2 img {
-        width: 100%;
-        height: 100%;
-    }
-
-    .c-new {
-        width: 100%;
-        display: flex;
-        gap: 10px;
-        ;
-        margin-bottom: 12px;
-    }
-
-    .c-new-image {
-        width: 300px;
-        aspect-ratio: 5 / 2;
-    }
-</style>
 <div class="new-container">
     <div class="news-title">
         <img src="https://res.cloudinary.com/cockbook/image/upload/v1682244050/single/image_1_ygsfns.png" alt="">
