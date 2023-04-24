@@ -12,14 +12,14 @@
 
     <nav>
         <ul class="nav-ul">
-        <li class="nav-link"><a class="nav-a" href="#">Trang chủ</a></li>
-        <li class="nav-link"><a class="nav-a" href="#">Top xe được thuê</a></li>
-        <li class="nav-link"><a class="nav-a" href="#">Các loại xe</a></li>
-        <li class="nav-link"><a class="nav-a" href="#">Tin tức</a></li>
-        <li class="nav-link"><a class="nav-a" href="#">Liên hệ</a></li>
-        <li class="right-align"><a class="admin-btn" href="#">Quản lý</a></li>
-        <li class="right-align"><a class="login-btn" href="#">Đăng nhập</a></li>
-        <li class="right-align"><a class="register-btn" href="#">Đăng ký</a></li>
+        <li class="nav-link"><a class="nav-a" href="resources\views\index.blade.php">Trang chủ</a></li>
+        <li class="nav-link"><a class="nav-a" href="resources\views\toprent.blade.php">Top xe được thuê</a></li>
+        <li class="nav-link"><a class="nav-a" href="resources\views\category.blade.php">Các loại xe</a></li>
+        <li class="nav-link"><a class="nav-a" href="resources\views\news.blade.php">Tin tức</a></li>
+        <li class="nav-link"><a class="nav-a" href="#resources\views\contactus.blade.php">Liên hệ</a></li>
+        <li class="right-align"><a class="admin-btn" href="resources\views\carsAdmin.blade.php">Quản lý</a></li>
+        <li class="right-align"><a class="login-btn" href="#resources\views\login.blade.php">Đăng nhập</a></li>
+        <li class="right-align"><a class="register-btn" href="#resources\views\signup.blade.php">Đăng ký</a></li>
         </ul>
     </nav>
 
