@@ -11,18 +11,19 @@
 
 <body>
 
-  <nav>
-      <ul class="nav-ul">
-      <li class="nav-link"><a class="nav-a" href="#">Trang chủ</a></li>
-      <li class="nav-link"><a class="nav-a" href="#">Top xe được thuê</a></li>
-      <li class="nav-link"><a class="nav-a" href="#">Các loại xe</a></li>
-      <li class="nav-link"><a class="nav-a" href="#">Tin tức</a></li>
-      <li class="nav-link"><a class="nav-a" href="#">Liên hệ</a></li>
-      <li class="right-align"><a class="admin-btn" href="#">Quản lý</a></li>
-      <li class="right-align"><a class="login-btn" href="#">Đăng nhập</a></li>
-      <li class="right-align"><a class="register-btn" href="#">Đăng ký</a></li>
-      </ul>
-  </nav>
+    <nav>
+        <ul class="nav-ul">
+        <li class="nav-link"><a class="nav-a" href="/">Trang chủ</a></li>
+        <li class="nav-link"><a class="nav-a" href="/toprent">Top xe được thuê</a></li>
+        <li class="nav-link"><a class="nav-a" href="/category">Các loại xe</a></li>
+        <li class="nav-link"><a class="nav-a" href="/news">Tin tức</a></li>
+        <li class="nav-link"><a class="nav-a" href="/contactus">Liên hệ</a></li>
+        <li class="nav-link"><a class="nav-a" href="/about">About</a></li>
+        <li class="right-align"><a class="admin-btn" href="/carsAdmin">Quản lý</a></li>
+        <li class="right-align"><a class="login-btn" href="/login">Đăng nhập</a></li>
+        <li class="right-align"><a class="register-btn" href="/signup">Đăng ký</a></li>
+        </ul>
+    </nav>
 
   <div class="container">
 		<h2>Liên hệ với chúng tôi</h2>
