@@ -39,8 +39,8 @@ nav {
   }
   
   nav form {
-    float: right;
-    margin-left: auto;
+    background-color: #45a049;
+    margin-left: 200px;
   }
   
   nav .user-links {

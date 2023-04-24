@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Index</title>
     <link rel="stylesheet" href="{{ asset('assets/css/index.css') }}">
-    <link rel="stylesheet" href="assets\css\navbar.css">
+    <link rel="stylesheet" href="{{ asset('assets/css/navbar.css')}}">
 </head>
 <body>
 <nav>
@@ -27,6 +27,8 @@
     </li>
   </ul>
 </nav>
+
+
 <main>
   <div class="search-container">
     <h1>Tìm kiếm thuê xe</h1>

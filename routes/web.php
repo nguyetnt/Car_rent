@@ -56,3 +56,8 @@ Route::get('/carsAdmin/edit/{id}', function () {
 Route::get('/category', function () {
     return view('category');
 });
+
+Route::get('/contactus', function () {
+    return view('contachus');
+});
+
