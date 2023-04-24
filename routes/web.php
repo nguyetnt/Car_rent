@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 
+use App\Http\Controllers\CarController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -41,9 +43,7 @@ Route::get('/signup', function () {
     return view('signup');
 });
 
-Route::get('/carsAdmin', function () {
-    return view('carsAdmin');
-});
+Route::get('/carsAdmin', [CarController::class, "index"]);
 
 Route::get('/carsAdmin/create', function () {
     return view('carsAdminCreate');

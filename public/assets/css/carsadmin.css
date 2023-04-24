@@ -2,7 +2,8 @@
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
     font-size: 14px;
@@ -39,10 +40,12 @@ body {
     padding: 12px 0;
     background-color: #fff;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .column-item {
     padding: 0 16px;
+    margin-top: 25px;
 }
 
 .sidebar-one {
@@ -51,6 +54,13 @@ body {
 
 .sidebar-two {
     flex: 1;
+}
+
+.carTitle {
+    font-size: 20px;
+    font-weight: bold;
+    color: #bb5555;
+    margin: 0;
 }
 
 .main-column {
@@ -77,12 +87,11 @@ body {
     flex: 1;
 }
 
-
-img{
+img {
     vertical-align: middle;
     border-style: none;
 }
-.Tiledanhsach{
+.Tiledanhsach {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -92,8 +101,8 @@ img{
     margin: 0 auto;
     font-size: large;
 }
-.carID{
+.carID {
     display: flex;
-    
+
     flex-direction: column;
 }

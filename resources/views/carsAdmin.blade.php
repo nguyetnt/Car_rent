@@ -26,69 +26,17 @@
     </div>
 
     <div class="Tiledanhsach">Danh sach cac xe co the cho nguoi dung thue </div>
-    
-    <!-- Column layout -->
+
     <div class="column-layout">
-        <div class="column-item sidebar-one">
-            <img src="{{ asset('assets/imgs/download.jpg') }}" class="img-detail">
-            <h4 class="carID">Toyota Rush chuẩn </h4>
-            <button class="add">Thay doi thong tin</button>
-            <button class="add">Them vao muc cho thue</button>
-        </div>
-        <div class="column-item sidebar-one">
-            <img src="{{ asset('assets/imgs/download.jpg') }}" class="img-detail">
-            <h4 class="carID">Toyota Cross 1 8V chuẩn  </h4>
-            <button class="add">Thay doi thong tin</button>
-            <button class="add">Them vao muc cho thue</button>
-        </div>
-    <div class="column-item sidebar-one">
-        <img src="{{ asset('assets/imgs/download.jpg') }}" class="img-detail">
-            <h4 class="carID">Toyota Innova 2 0E chuẩn </h4>
-            <button class="add">Thay doi thong tin</button>
-            <button class="add">Them vao muc cho thue</button>
-        </div>
-    </div>
-     <!-- Column layout -->
-     <div class="column-layout">
-        <div class="column-item sidebar-one">
-            <img src="{{ asset('assets/imgs/download.jpg') }}" class="img-detail">
-            <h4 class="carID">Toyota Fortuner 24MT chuẩn </h4>
-            <button class="add">Thay doi thong tin</button>
-            <button class="add">Them vao muc cho thue</button>
-        </div>
-        <div class="column-item sidebar-one">
-            <img src="{{ asset('assets/imgs/download.jpg') }}" class="img-detail">
-            <h4 class="carID">Toyota Fortuner 2 4MT </h4>
-            <button class="add">Thay doi thong tin</button>
-            <button class="add">Them vao muc cho thue</button>
-        </div>
-    <div class="column-item sidebar-one">
-        <img src="{{ asset('assets/imgs/download.jpg') }}" class="img-detail">
-            <h4 class="carID">Volkswagen Teramont </h4>
-            <button class="add">Thay doi thong tin</button>
-            <button class="add">Them vao muc cho thue</button>
-        </div>
-    </div>
-     <!-- Column layout -->
-     <div class="column-layout">
-        <div class="column-item sidebar-one">
-            <img src="{{ asset('assets/imgs/download.jpg') }}" class="img-detail">
-            <h4 class="carID">Toyota Raize turbo </h4>
-            <button class="add">Thay doi thong tin</button>
-            <button class="add">Them vao muc cho thue</button>
-        </div>
-        <div class="column-item sidebar-one">
-            <img src="{{ asset('assets/imgs/download.jpg') }}" class="img-detail">
-            <h4 class="carID">VIOS2023 </h4>
-            <button class="add">Thay doi thong tin</button>
-            <button class="add">Them vao muc cho thue</button>
-        </div>
-    <div class="column-item sidebar-one">
-        <img src="{{ asset('assets/imgs/download.jpg') }}" class="img-detail">
-            <h4 class="carID">Kia Sorento GATH 24AT 2017 </h4>
-            <button class="add">Thay doi thong tin</button>
-            <button class="add">Them vao muc cho thue</button>
-        </div>
+        @foreach ($cars as $car)
+            <div class="column-item sidebar-one">
+                <img src="{{ $car->img_url }}" class="img-detail" width="200" height="150">
+                <a class="carTitle" href="">{{ $car->car_model }} {{ $car->car_number }}</a>
+                <p> {{ $car->car_price }} vnd </p>
+                <button class="add">Thay doi thong tin</button>
+                <button class="add">Them vao muc cho thue</button>
+            </div>
+        @endforeach
     </div>
 </body>
 </html>

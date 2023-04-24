@@ -22,16 +22,6 @@ body {
     justify-content: space-between;
 }
 
-/* Cách này */
-/* .nav-list:nth-child(1) {
-  margin-right: auto;
-} */
-
-/* Hoặc cách này */
-/* .nav-list:nth-child(2) {
-  margin-left: auto;
-} */
-
 .nav-list {
     padding-left: 0;
     margin: auto 16px;
