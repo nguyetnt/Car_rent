@@ -9,84 +9,162 @@
     <link rel="stylesheet" href="{{ asset('assets/css/navbar.css')}}">
 </head>
 <body>
+
 <nav>
-  <ul>
-    <li> <img class="img-logo" src="assets\imgs\loginlogo.png" alt=""></li>
-    <li><a href="#">Trang chủ</a></li>
-    <li><a href="#">Top xe được thuê</a></li>
-    <li><a href="#">Các loại xe</a></li>
-    <li><a href="#">Tin tức</a></li>
-    <li><a href="#">Liên hệ</a></li>
-    <li><a class="login" href="#">Đăng nhập</a></li>
-    <li><a class="signup" href="#">Đăng ký</a></li>
-    <li>
-      <form action="#" method="get">
-        <input type="text" placeholder="Tìm kiếm" name="search">
-        <button type="submit">Tìm kiếm</button>
-      </form>
-    </li>
+  <ul class="nav-ul">
+    <li class="nav-link"><a class="nav-a" href="#">Trang chủ</a></li>
+    <li class="nav-link"><a class="nav-a" href="#">Top xe được thuê</a></li>
+    <li class="nav-link"><a class="nav-a" href="#">Các loại xe</a></li>
+    <li class="nav-link"><a class="nav-a" href="#">Tin tức</a></li>
+    <li class="nav-link"><a class="nav-a" href="#">Liên hệ</a></li>
+    <li class="right-align"><a href="#" class="admin-btn">Quản lý</a></li>
+    <li class="right-align"><a href="#" class="login-btn">Đăng nhập</a></li>
+    <li class="right-align"><a href="#" class="register-btn">Đăng ký</a></li>
   </ul>
 </nav>
 
-<main >
-        <section class="filter">
-            <h2>Các loại xe:</h2>
-            <ul>
-                <li><a href="#"><i class="icon-xe-4-cho"></i>Xe 4 chỗ</a></li>
-                <li><a href="#"><i class="icon-xe-7-cho"></i>Xe 7 chỗ</a></li>
-                <li><a href="#"><i class="icon-xe-ban-tai"></i>Xe bán tải</a></li>
-                <li><a href="#"><i class="icon-xe-5-cho"></i>Xe 5 chỗ</a></li>
-            </ul>
-        </section>
-		<section class="car-list">
-            <h2>Danh sách xe</h2>
-            <div class="row">
-                <div class="col-4">
-                <div class="car-item">
-                    <img src="assets\imgs\Rentcart.jpg" alt="Car 1">
-                    <h3>Xe 4 chỗ</h3>
-                    <p>Giá thuê: 100,000 đ/ngày</p>
-                </div>
-                </div>
-                <div class="col-4">
-                <div class="car-item">
-                    <img src="assets\imgs\download.jpg" alt="Car 2">
-                    <h3>Xe 7 chỗ</h3>
-                    <p>Giá thuê: 150,000 đ/ngày</p>
-                </div>
-                </div>
-                <div class="col-4">
-                <div class="car-item">
-                    <img src="assets\imgs\75fbc5ad-20210422_044703.jpg" alt="Car 3">
-                    <h3>Xe bán tải</h3>
-                    <p>Giá thuê: 200,000 đ/ngày</p>
-                </div>
-                </div>
-                <div class="col-4">
-                <div class="car-item">
-                    <img src="images/car4.jpg" alt="Car 4">
-                    <h3>Xe 5 chỗ</h3>
-                    <p>Giá thuê: 120,000 đ/ngày</p>
-                </div>
-                </div>
-                <div class="col-4">
-                <div class="car-item">
-                    <img src="images/car5.jpg" alt="Car 5">
-                    <h3>Xe 4 chỗ</h3>
-                    <p>Giá thuê: 90,000 đ/ngày</p>
-                </div>
-                </div>
-                <div class="col-4">
-                <div class="car-item">
-                    <img src="images/car6.jpg" alt="Car 6">
-                    <h3>Xe 7 chỗ</h3>
-                    <p>Giá thuê: 170,000 đ/ngày</p>
-                </div>
+<div class="container">
+		<h2>Danh sách các loại xe</h2>
+		
+		<h3>Xe 4 chỗ</h3>
+		<div class="car-list">
+			<div class="car-card">
+				<img src="https://via.placeholder.com/300x200.png?text=Xe+1" alt="Xe 1">
+				<div class="car-info">
+					<h4>Xe 1</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					<p class="price">Giá thuê: $100/ngày</p>
+				</div>
+			</div>
+			<div class="car-card">
+				<img src="https://via.placeholder.com/300x200.png?text=Xe+2" alt="Xe 2">
+				<div class="car-info">
+					<h4>Xe 2</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					<p class="price">Giá thuê: $120/ngày</p>
+				</div>
+			</div>
+			<div class="car-card">
+				<img src="https://via.placeholder.com/300x200.png?text=Xe+3" alt="Xe 3">
+				<div class="car-info">
+					<h4>Xe 3</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					<p class="price">Giá thuê: $150/ngày</p>
+				</div>
+			</div>
+			<div class="car-card">
+                <img src="https://via.placeholder.com/300x200.png?text=Xe+4" alt="Xe 4">
+                <div class="car-info">
+                    <h4>Xe 4</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p class="price">Giá thuê: $180/ngày</p>
                 </div>
             </div>
-            </section>
-
-	</main>
+            <div class="car-card">
+                <img src="https://via.placeholder.com/300x200.png?text=Xe+5" alt="Xe 5">
+                <div class="car-info">
+                    <h4>Xe 5</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p class="price">Giá thuê: $200/ngày</p>
+                </div>
+            </div>
+        </div>
+        <h3>Xe 5 chỗ</h3>
+	<div class="car-list">
+		<div class="car-card">
+			<img src="https://via.placeholder.com/300x200.png?text=Xe+6" alt="Xe 6">
+			<div class="car-info">
+				<h4>Xe 6</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				<p class="price">Giá thuê: $250/ngày</p>
+			</div>
+		</div>
+		<div class="car-card">
+			<img src="https://via.placeholder.com/300x200.png?text=Xe+7" alt="Xe 7">
+			<div class="car-info">
+				<h4>Xe 7</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				<p class="price">Giá thuê: $300/ngày</p>
+			</div>
+		</div>
+		<div class="car-card">
+			<img src="https://via.placeholder.com/300x200.png?text=Xe+8" alt="Xe 8">
+			<div class="car-info">
+				<h4>Xe 8</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				<p class="price">Giá thuê: $350/ngày</p>
+			</div>
+		</div>
+		<div class="car-card">
+			<img src="https://via.placeholder.com/300x200.png?text=Xe+9" alt="Xe 9">
+			<div class="car-info">
+				<h4>Xe 9</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				<p class="price">Giá thuê: $400/ngày</p>
+			</div>
+		</div>
+		<div class="car-card">
+			<img src="https://via.placeholder.com/300x200.png?text=Xe+10" alt="Xe 10">
+			<div class="car-info">
+				<h4>Xe 10</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				<p class="price">Giá thuê: $450/ngày</p>
+			</div>
+		</div>
+	</div>
+	
+	<h3>Xe 7 chỗ</h3>
+	<div class="car-list">
+		<div class="car-card">
+        <img src="https://via.placeholder.com/300x200.png?text=Xe+10" alt="Xe 10">
+			<div class="car-info">
+				<h4>Xe 10</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				<p class="price">Giá thuê: $200/ngày</p>
+			</div>
+		</div>
+		<div class="car-card">
+			<img src="https://via.placeholder.com/300x200.png?text=Xe+11" alt="Xe 11">
+			<div class="car-info">
+				<h4>Xe 11</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				<p class="price">Giá thuê: $220/ngày</p>
+			</div>
+		</div>
+		<div class="car-card">
+			<img src="https://via.placeholder.com/300x200.png?text=Xe+12" alt="Xe 12">
+			<div class="car-info">
+				<h4>Xe 12</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				<p class="price">Giá thuê: $250/ngày</p>
+			</div>
+		</div>
+		<div class="car-card">
+			<img src="https://via.placeholder.com/300x200.png?text=Xe+13" alt="Xe 13">
+			<div class="car-info">
+				<h4>Xe 13</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				<p class="price">Giá thuê: $280/ngày</p>
+			</div>
+		</div>
+		<div class="car-card">
+			<img src="https://via.placeholder.com/300x200.png?text=Xe+14" alt="Xe 14">
+			<div class="car-info">
+				<h4>Xe 14</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				<p class="price">Giá thuê: $300/ngày</p>
+			</div>
+		</div>
+		<div class="car-card">
+			<img src="https://via.placeholder.com/300x200.png?text=Xe+15" alt="Xe 15">
+			<div class="car-info">
+				<h3>Xe 15</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				<p class="price">Giá thuê: $350/ngày</p>
+			</div>
+		</div>
+	</div>
+</div>
 
 </body>
 </html>
