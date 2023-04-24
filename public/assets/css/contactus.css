@@ -1,48 +1,92 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #F5F5F5;
+}
+
 .container {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .contact {
-    background-color: #f2f2f2;
-    padding: 20px;
-    margin: 20px 0;
-    max-width: 600px;
-    width: 100%;
-  }
-  
-  .contact h2 {
-    font-size: 28px;
-    margin-bottom: 20px;
-  }
-  
-  .contact label {
-    display: block;
-    margin-bottom: 5px;
-  }
-  
-  .contact input[type="text"],
-  .contact input[type="email"],
-  .contact textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-  }
-  
-  .contact button[type="submit"] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 16px;
-  }
-  
-  .contact button[type="submit"]:hover {
-    background-color: #45a049;
-  }
-  
+	width: 60%;
+	margin: 0 auto;
+	padding: 50px;
+	background-color:rgb(224, 190, 179);
+	border-radius: 10px;
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+	text-align: center;
+}
+
+h2 {
+	font-size: 36px;
+	font-weight: bold;
+	color: #2d82c7;
+	margin-bottom: 20px;
+}
+
+form {
+	display: inline-block;
+	text-align: left;
+}
+
+label {
+	font-size: 18px;
+	font-weight: bold;
+	color: #333;
+	margin-bottom: 10px;
+	display: block;
+}
+
+input[type="text"],
+textarea {
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	font-size: 18px;
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+button[type="submit"] {
+	padding: 10px 20px;
+	border-radius: 5px;
+	border: none;
+	font-size: 18px;
+	color: #FFFFFF;
+	background-color: #7BC74D;
+	transition: all 0.2s ease-in-out;
+	cursor: pointer;
+  font-weight: bolder;
+}
+
+button[type="submit"]:hover {
+	background-color: #62A63F;
+}
+
+.social-icons {
+	margin-top: 20px;
+}
+
+.social-icons a {
+	display: inline-block;
+	margin-right: 10px;
+	font-size: 24px;
+	color: #2d82c7;
+}
+
+.social-icons a:hover {
+	color: #62A63F;
+}
+
+.fa-facebook-f {
+	font-size: 28px;
+}
+
+.fa-instagram {
+	font-size: 24px;
+}
+
+.fa-tiktok {
+	font-size: 28px;
+}
