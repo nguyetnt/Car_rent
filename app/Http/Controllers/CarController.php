@@ -25,6 +25,7 @@ class CarController extends Controller
     public function create()
     {
         //
+        return view('carsAdminCreate');
     }
 
     /**
@@ -32,7 +33,18 @@ class CarController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        // Add car to database
+        $car = new Car();
+
+        $car->car_model = $request->car_model;
+        $car->car_number = $request->car_number;
+        $car->car_price = $request->car_price;
+        $car->car_status = "Chua thue";
+        $car->img_url = $request->img_url;
+
+        $car->save();
+
+        return redirect('/carsAdmin');
     }
 
     /**

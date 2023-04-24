@@ -16,6 +16,7 @@ class Car extends Model
   'car_model',
   'car_status',
   'car_price',
+  'img_url'
  ];
 
  public function order(): HasMany

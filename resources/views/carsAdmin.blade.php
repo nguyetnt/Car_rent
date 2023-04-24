@@ -25,7 +25,26 @@
         </ul>
     </div>
 
-    <div class="Tiledanhsach">Danh sach cac xe co the cho nguoi dung thue </div>
+    <div class="Tiledanhsach">Danh sach cac xe co the cho nguoi dung thue</div>
+
+    <button style="
+        margin-left: 10px;
+        margin-top: 10px;
+        width: 200px;
+        height: 50px;
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+    ">
+        <a href="{{ url('carsAdmin/create') }}">Them xe moi</a>
+    </button>
 
     <div class="column-layout">
         @foreach ($cars as $car)

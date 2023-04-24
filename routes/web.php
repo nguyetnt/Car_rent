@@ -45,11 +45,12 @@ Route::get('/signup', function () {
 
 Route::get('/carsAdmin', [CarController::class, "index"]);
 
+Route::get('/carsAdmin/create', [CarController::class, "create"]);
+
+Route::post('/carsAdmin/store', [CarController::class, "store"]);
+
 Route::get('/carsAdmin/{id}', [CarController::class, "show"]);
 
-Route::get('/carsAdmin/create', function () {
-    return view('carsAdminCreate');
-});
 
 Route::get('/carsAdmin/edit/{id}', function () {
     return view('carsAdminDetail');
@@ -62,4 +63,3 @@ Route::get('/category', function () {
 Route::get('/contactus', function () {
     return view('contactus');
 });
-
