@@ -64,6 +64,8 @@ class CarController extends Controller
     public function edit(string $id)
     {
         //
+        $car = Car::find($id);
+        return view('carsAdminEdit', compact('car'));
     }
 
     /**
@@ -72,6 +74,16 @@ class CarController extends Controller
     public function update(Request $request, string $id)
     {
         //
+        $car = Car::find($id);
+
+        $car->car_model = $request->car_model;
+        $car->car_number = $request->car_number;
+        $car->car_price = $request->car_price;
+        $car->img_url = $request->img_url;
+
+        $car->save();
+
+        return redirect('/carsAdmin');
     }
 
     /**
@@ -80,5 +92,9 @@ class CarController extends Controller
     public function destroy(string $id)
     {
         //
+        $car = Car::find($id);
+        $car->delete();
+
+        return redirect('/carsAdmin');
     }
 }

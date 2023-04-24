@@ -49,12 +49,13 @@ Route::get('/carsAdmin/create', [CarController::class, "create"]);
 
 Route::post('/carsAdmin/store', [CarController::class, "store"]);
 
+Route::get('/carsAdmin/edit/{id}', [CarController::class, "edit"]);
+
 Route::get('/carsAdmin/{id}', [CarController::class, "show"]);
 
+Route::put('/carsAdmin/{id}', [CarController::class, "update"]);
 
-Route::get('/carsAdmin/edit/{id}', function () {
-    return view('carsAdminDetail');
-});
+Route::delete('/carsAdmin/{id}', [CarController::class, "destroy"]);
 
 Route::get('/category', function () {
     return view('category');

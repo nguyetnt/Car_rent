@@ -42,8 +42,14 @@
                 Officia consequat adipisicing commodo nostrud reprehenderit pariatur.
             </p>
 
-            <button type="submit" class="btn btn-secondary">Chỉnh sửa</button>
-            <button type="submit" class="btn btn-secondary">Xoá</button>
+            <a type="submit" class="btn btn-secondary" href="{{ url('/carsAdmin/edit', $car->id) }}">Chỉnh sửa</a>
+
+            <form action="{{ url('/carsAdmin', $car->id) }}" method="POST">
+                @csrf
+                @method('DELETE')
+                <input type="submit" class="btn btn-secondary" value="Xóa">
+            </form>
+
         </div>
     </div>
 </body>
