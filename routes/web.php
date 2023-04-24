@@ -64,3 +64,12 @@ Route::get('/category', function () {
 Route::get('/contactus', function () {
     return view('contactus');
 });
+Route::get('/toprent', function () {
+    return view('toprent');
+});
+Route::get('/news', function () {
+    return view('news');
+});
+Route::get('/search', function () {
+    return view('search');
+});
