@@ -1,0 +1,34 @@
+
+    .c-toprent {
+        width: 100%;
+
+    }
+    
+    .row-1 {
+        width: 100%;
+        background-color: #78a4fa;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .row-2 {
+        height: 150px;
+        background-color: #d9d9d9;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .row-3 {
+        height: 50px;
+        background-color: #d9d9d9;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .row-2-5 {
+        width: 100%;
+        background-color: #78a4fa;
+        display: flex;
+        align-items: center;
+        padding: 30px;
+    }
