@@ -9,25 +9,18 @@
     <link rel="stylesheet" href="{{ asset('assets/css/navbar.css')}}">
 </head>
 <body>
+
 <nav>
   <ul>
-    <li> <img class="img-logo" src="assets\imgs\loginlogo.png" alt=""></li>
     <li><a href="#">Trang chủ</a></li>
     <li><a href="#">Top xe được thuê</a></li>
     <li><a href="#">Các loại xe</a></li>
     <li><a href="#">Tin tức</a></li>
     <li><a href="#">Liên hệ</a></li>
-    <li><a class="login" href="#">Đăng nhập</a></li>
-    <li><a class="signup" href="#">Đăng ký</a></li>
-    <li>
-      <form action="#" method="get">
-        <input type="text" placeholder="Tìm kiếm" name="search">
-        <button type="submit">Tìm kiếm</button>
-      </form>
-    </li>
+    <li class="right-align"><a href="#" class="login-btn">Đăng nhập</a></li>
+    <li class="right-align"><a href="#" class="register-btn">Đăng ký</a></li>
   </ul>
 </nav>
-
 
 <main>
   <div class="search-container">
