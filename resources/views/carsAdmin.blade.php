@@ -31,7 +31,7 @@
         @foreach ($cars as $car)
             <div class="column-item sidebar-one">
                 <img src="{{ $car->img_url }}" class="img-detail" width="200" height="150">
-                <a class="carTitle" href="">{{ $car->car_model }} {{ $car->car_number }}</a>
+                <a class="carTitle" href="{{ url('carsAdmin', $car->id) }}">{{ $car->car_model }} {{ $car->car_number }}</a>
                 <p> {{ $car->car_price }} vnd </p>
                 <button class="add">Thay doi thong tin</button>
                 <button class="add">Them vao muc cho thue</button>

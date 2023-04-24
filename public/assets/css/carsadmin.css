@@ -91,6 +91,12 @@ img {
     vertical-align: middle;
     border-style: none;
 }
+
+.img-detail {
+    width: 100px;
+    height: 100px;
+}
+
 .Tiledanhsach {
     width: 100%;
     display: flex;

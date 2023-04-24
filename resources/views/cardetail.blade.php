@@ -27,17 +27,23 @@
     <!-- Column layout -->
     <div class="column-layout">
         <div class="column-item sidebar-one">
-            <img src="{{ asset('assets/imgs/download.jpg') }}" class="img-detail">
+            <img src="{{ $car->img_url }}" class="img-detail">
         </div>
+
         <div class="column-item main-column">
-            <h2>Ford Ranger XLS 22AT 2017</h2>
-            <h2>5.000.000 ₫ 24h</h2>
-            <button type="submit" class="btn btn-secondary" >Thue xe </button>
+            <h2>{{ $car->car_model }} {{ $car->car_number }}</h2>
+            <h2>{{ $car->car_price }} $ / 24h</h2>
             <p>
-                Mô tả chi tiết - Khuyến mãi
-                xe Ford Ranger XLS 2.2AT 2017, dầu 1 cầu. Xe nhập khẩu Thái Lan, đăng kí 2018, tên tư nhân 1 chủ - ODO zin 31.000 Km !
-                Xe trang bị gồm: Màn hình DVD, camera lùi, cảm biến, điều hòa, túi khí, vô lăng tích hợp điều khiển, chống trơn trượt, ABS, cân bằng điện tử,... cùng nhiều tiện ích khác.
+                lorem ipsum dolor sit amet, consectetur adipiscing elit. Officia consequat adipisicing commodo nostrud reprehenderit pariatur.
+                Officia consequat adipisicing commodo nostrud reprehenderit pariatur.
+                Officia consequat adipisicing commodo nostrud reprehenderit pariatur.
+                Officia consequat adipisicing commodo nostrud reprehenderit pariatur.
+                Officia consequat adipisicing commodo nostrud reprehenderit pariatur.
+                Officia consequat adipisicing commodo nostrud reprehenderit pariatur.
             </p>
+
+            <button type="submit" class="btn btn-secondary">Chỉnh sửa</button>
+            <button type="submit" class="btn btn-secondary">Xoá</button>
         </div>
     </div>
 </body>

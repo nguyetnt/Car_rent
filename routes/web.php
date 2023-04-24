@@ -45,6 +45,8 @@ Route::get('/signup', function () {
 
 Route::get('/carsAdmin', [CarController::class, "index"]);
 
+Route::get('/carsAdmin/{id}', [CarController::class, "show"]);
+
 Route::get('/carsAdmin/create', function () {
     return view('carsAdminCreate');
 });
