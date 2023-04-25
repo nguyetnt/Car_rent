@@ -42,17 +42,11 @@
 				<input type="text" id="card-expiration-date" required>
 			</form>
 			<button class="submit-btn">Thanh toán</button>
-			<button class="back-btn">Quay lại</button>
+			<button class="back-btn"><a href="/cart" style="text-decoration: none; font-weight:bold; color:aliceblue;"></a>Quay lại</button>
 		</div>
 		<div class="car-section">
 			<div class="car-item">
-				<img src="https://via.placeholder.com/300x200.png?text=Xe+1" alt="Car Image">
-				<h3>Tên xe</h3>
-				<p>Giá tiền: 1000$</p>
-				<p>Thông tin của xe</p>
-			</div>
-			<div class="car-item">
-				<img src="https://via.placeholder.com/300x200.png?text=Xe+2" alt="Car Image">
+				<img src="https://via.placeholder.com/300x200.png?text=Xe+đã+chọn" alt="Car Image">
 				<h3>Tên xe</h3>
 				<p>Giá tiền: 1000$</p>
 				<p>Thông tin của xe</p>

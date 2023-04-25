@@ -29,27 +29,17 @@
 
     
 	<div class="wishlist-container">
-		<h1>Wishlist</h1>
+		<h1>Xác nhận yêu cầu thuê</h1>
 		<ul class="wishlist-items">
 			<li>
-				<img src="https://via.placeholder.com/300x200.png?text=Xe+1" alt="Car 1">
-				<h2>Car 1</h2>
-				<p>$100/day</p>
-			</li>
-			<li>
-				<img src="https://via.placeholder.com/300x200.png?text=Xe+2" alt="Car 2">
-				<h2>Car 2</h2>
-				<p>$150/day</p>
-			</li>
-			<li>
-				<img src="https://via.placeholder.com/300x200.png?text=Xe+3" alt="Car 3">
-				<h2>Car 3</h2>
-				<p>$200/day</p>
+				<img src="https://via.placeholder.com/300x200.png?text=Xe+đã+chọn" alt="Tên xe">
+				<h2>Tên xe</h2>
+				<p>$100 / Ngày</p>
 			</li>
 		</ul>
 		<div class="buttons">
-			<button class="checkout-button">Chuyển đến trang thanh toán</button>
-			<button class="back-button">Quay lại</button>
+			<button class="checkout-button"><a href="/checkout" style="text-decoration: none; font-weight:bold; 				color:aliceblue;">Chuyển đến trang thanh toán</a></button>
+			<button class="back-button"><a href="/category" style="text-decoration: none; font-weight:bold; 					color:aliceblue;">Quay lại</a></button>
 		</div>
 	</div>
 

@@ -61,6 +61,10 @@ Route::get('/category', function () {
     return view('category');
 });
 
+Route::get('/category}', [category::class, "index"]);
+
+Route::get('/category}', [category::class, "show"]);
+
 Route::get('/contactus', function () {
     return view('contactus');
 });
