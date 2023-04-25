@@ -42,7 +42,7 @@
 				<input type="text" id="card-expiration-date" required>
 			</form>
 			<button class="submit-btn">Thanh toán</button>
-			<button class="back-btn"><a href="/cart" style="text-decoration: none; font-weight:bold; color:aliceblue;"></a>Quay lại</button>
+			<button class="back-btn"><a href="/cart" style="text-decoration: none; font-weight:bold; color:aliceblue;">Quay lại</a></button>
 		</div>
 		<div class="car-section">
 			<div class="car-item">
