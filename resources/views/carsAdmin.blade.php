@@ -56,5 +56,6 @@
             </div>
         @endforeach
     </div>
+    <a class= "button" href="{{url('/login')}}">Log out</a>
 </body>
 </html>
