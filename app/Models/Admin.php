@@ -17,8 +17,9 @@ class Admin extends Model
         'gender',
         'age',
         'email',
+        'password'
     ];
-    
+
     public function order(): HasMany
     {
         return $this->hasMany(Order::class);

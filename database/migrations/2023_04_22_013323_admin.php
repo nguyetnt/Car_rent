@@ -18,7 +18,7 @@ return new class extends Migration
             $table->string('gender');
             $table->integer('age');
             $table->string('email');
-
+            $table->string('password');
             $table->timestamps();
         });
     }
