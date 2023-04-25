@@ -45,7 +45,7 @@
                     <button type="submit" style="width: 100%; height: 50px; background-color: #377BB9C9;" class="c-flex-center">
                         Log in</div>
 
-                    <div>Don't you have an account? Sign up</div>
+                    
                 </form>
 
                 <br>
