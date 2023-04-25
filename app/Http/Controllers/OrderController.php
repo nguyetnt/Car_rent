@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-
+use App\Models\Order;
 class OrderController extends Controller
 {
     /**
@@ -11,7 +11,13 @@ class OrderController extends Controller
      */
     public function index()
     {
-        //
+        {
+            // Get all order from database
+            $orders = Order::all();
+    
+            // Return view with cars 
+            return view('cart', compact('cars'));
+        }
     }
 
     /**
@@ -19,7 +25,7 @@ class OrderController extends Controller
      */
     public function create()
     {
-        //
+        return view('carsAdminCreate');
     }
 
     /**
@@ -27,7 +33,20 @@ class OrderController extends Controller
      */
     public function store(Request $request)
     {
-        //
+       
+        $order = new Order();
+
+        $order->order_name = $request->order_name;
+        $order->rental_id = $request->rental_id;
+        $order->order_id = $request->order_id;
+        $order->customer_id = $request->customer_id;
+        $order->admin_id = $request->admin_id;
+        $order->order_date = $request->order_date;
+
+
+        $order->save();
+
+        return redirect('/cart');
     }
 
     /**
@@ -35,7 +54,9 @@ class OrderController extends Controller
      */
     public function show(string $id)
     {
-        //
+        $order = Order::find($id);
+
+        return view('cart', compact('car'));
     }
 
     /**
@@ -43,7 +64,8 @@ class OrderController extends Controller
      */
     public function edit(string $id)
     {
-        //
+        $order = Order::find($id);
+        return view('carsAdminEdit', compact('car'));
     }
 
     /**
@@ -51,7 +73,16 @@ class OrderController extends Controller
      */
     public function update(Request $request, string $id)
     {
-        //
+        $order = Order::find($id);
+        $order->order_name = $request->order_name;
+        $order->rental_id = $request->rental_id;
+        $order->order_id = $request->order_id;
+        $order->customer_id = $request->customer_id;
+        $order->admin_id = $request->admin_id;
+        $order->order_date = $request->order_date;
+        $order->save();
+
+        return redirect('/cart');
     }
 
     /**
@@ -59,6 +90,9 @@ class OrderController extends Controller
      */
     public function destroy(string $id)
     {
-        //
+        $order = Order::find($id);
+        $order->delete();
+
+        return redirect('/carsAdmin');
     }
 }
